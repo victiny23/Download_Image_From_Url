@@ -22,20 +22,3 @@ def app_urllib(img_url, file_name):
     # calling urlretrieve function to get resource
     urllib.request.urlretrieve(img_url, file_name)
 
-
-"""
-# test
-# setting filename a d image url
-fn3 = r'C:\Users\Victiny\Python_Project\Covid-19_Visualization\Flag\peru.png'
-fn4 = r'C:\Users\Victiny\Python_Project\Covid-19_Visualization\Flag\france.png'
-il3 = 'https://cdn.countryflags.com/thumbs/peru/flag-800.png'
-il4 = 'https://cdn.countryflags.com/thumbs/france/flag-800.png'
-
-app_requests(il3, fn3)
-app_urllib(il4, fn4)
-
-import matplotlib.pyplot as plt
-a = plt.imread(fn3)
-plt.imshow(a)
-plt.show()
-"""
